@@ -99,35 +99,83 @@ Author</h1>
 <ul>
 <li><b>Elio Flandin</b> - email: <a href="#" onclick="location.href='mai'+'lto:'+'alu'+'mn'+'o@a'+'lu'+'mno'+'.e'+'s'; return false;">elio.flandin@ensea.fr</a></li>
 </ul>
-<p>test 2</p>
-<p>Ponga una breve descripción del proyecto <b>aquí</b> en castellano e inglés.</p>
-<p>Puede añadir una imagen de portada <b>de su propiedad</b> aquí. Por ejemplo, del montaje final, o una captura de osciloscopio, etc.</p>
-<p><b>Las imágenes se deben guardar en la carpeta <code>docs/assets/imgs/</code> y se pueden incluir en el documento de la siguiente manera:</b></p>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Urbanite Project</h1>
+<p>The Urbanite project implements a modular parking assistance system using state machines (FSMs) on STM32 microcontrollers. The system is composed of independent FSMs for handling the button, ultrasound sensor, and RGB display, as well as an integrated FSM called fsm_urbanite which coordinates all components.</p>
+<p>The folder docs/ contains full Doxygen-generated documentation and can bee consulted at <a href="https://elioflandin.github.io/Project-Urbanite/">https://elioflandin.github.io/Project-Urbanite/</a>.</p>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Architecture</h1>
+<p>Each subsystem (button, ultrasound, display) is implemented using its own FSM for clarity, reusability, and testability.</p>
+<p>The FSMs are initialized dynamically using malloc, and their logic is centralized via <code>fsm_fire()</code> calls inside the <code>while(1)</code> loop in <code><a class="el" href="main_8c.html" title="Main file.">main.c</a></code>.</p>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Button FSM</h2>
+<p>Implements anti-debounce logic using a configurable debounce time.</p>
+<p>Stores the duration of button presses for interpreting user intent.</p>
+<p>Long presses toggle the system ON/OFF.</p>
+<p>Short presses pause or resume the display output.</p>
+<h2><a class="anchor" id="autotoc_md5"></a>
+Ultrasound FSM</h2>
+<p>Triggers distance measurements using a transducer and processes the received echo.</p>
+<p>Produces new measurement data when available, communicated to the main FSM.</p>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Display FSM</h2>
+<p>Displays color-coded distances using an RGB LED:</p>
+<ul>
+<li>Blue for <code>safe distance</code> (&gt; 200 cm),</li>
+<li>Turquoise blue for <code>INFO</code> (between 175 and 150 cm),</li>
+<li>Green for <code>NO PROBLEM</code> (between 150 and 50 cm),</li>
+<li>Yellow for <code>WARNING</code> (between 50 and 25 cm),</li>
+<li>Red for <code>DANGER</code> (&lt;25 cm).</li>
+</ul>
+<p>Reacts to pause commands and can turn off or freeze based on user input (button).</p>
+<h2><a class="anchor" id="autotoc_md7"></a>
+Urbanite Main FSM</h2>
+<p>Manages overall behavior of the system including ON/OFF state, pause functionality, and transitions to/from low-power mode.</p>
+<p>Integrates all subsystems via pointer-based references.</p>
+<p>Handles activity detection across subsystems to determine if the system should enter sleep mode.</p>
+<p>Uses a transition table for clarity and maintainability.</p>
+<h2><a class="anchor" id="autotoc_md8"></a>
+Low Power Mode Support</h2>
+<p>Entered through specific states in the main FSM (e.g., `SLEEP_WHILE_ON`, `SLEEP_WHILE_OFF`).</p>
+<p>Implements `__WFI()` to wait for interrupts and reduce power usage.</p>
+<p>Easily testable via debugger or current measurement.</p>
+<h2><a class="anchor" id="autotoc_md9"></a>
+Integration and Testing</h2>
+<p>The FSM was thoroughly tested with a real circuit using a Nucleo STM32F4re board.</p>
+<p>Full integration was achieved in `main.c`, with all subsystems interacting correctly.</p>
+<p>Proper hardware abstraction was maintained using port_* functions.</p>
+<p>Extensive logging and LED display behavior were verified in paused and active states.</p>
+<p>A local Doxygen documentation was generated in the `docs/` folder, and GitHub Pages was configured to allow online access to the full API documentation.</p>
+<h2><a class="anchor" id="autotoc_md10"></a>
+To be deleted</h2>
+<p>Ponga una breve descripción del proyecto **aquí** en castellano e inglés.</p>
+<p>Puede añadir una imagen de portada **de su propiedad** aquí. Por ejemplo, del montaje final, o una captura de osciloscopio, etc.</p>
+<p>**Las imágenes se deben guardar en la carpeta `docs/assets/imgs/` y se pueden incluir en el documento de la siguiente manera:**</p>
 <div class="fragment"><div class="line">![Texto alternativo](docs/assets/imgs/imagen.png)</div>
-</div><!-- fragment --><p>NOTA: <b>NO</b> añada el código <code>markdown</code> en el fichero <code>README.md</code> de su proyecto, sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir una imagen al fichero <code>README.md</code>.</p>
-<p><b>Añada un enlace a un vídeo público de su propiedad aquí con la demostración del proyecto explicando lo que haya hecho en la versión V5.</b></p>
+</div><!-- fragment --><p>NOTA: **NO** añada el código ```markdown``` en el fichero `README.md` de su proyecto, sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir una imagen al fichero `README.md`.</p>
+<p>**Añada un enlace a un vídeo público de su propiedad aquí con la demostración del proyecto explicando lo que haya hecho en la versión V5.**</p>
 <p>Para añadir un enlace a un vídeo de Youtube, puede usar el siguiente código:</p>
 <div class="fragment"><div class="line">[![Texto alternativo](docs/assets/imgs/imagen.png)](https://youtu.be/ID_DEL_VIDEO &quot;Texto al pasar el ratón por encima de la imagen.&quot;)</div>
-</div><!-- fragment --><p>NOTA: <b>NO</b> añada el código <code>markdown</code> sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir un enlace a un vídeo de Youtube al fichero <code>README.md</code>.</p>
-<h1><a class="anchor" id="autotoc_md2"></a>
+</div><!-- fragment --><p>NOTA: **NO** añada el código ```markdown``` sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir un enlace a un vídeo de Youtube al fichero `README.md`.</p>
+<h1><a class="anchor" id="autotoc_md11"></a>
 Version 1</h1>
 <p>Breve descripción de la versión 1.</p>
 <ul>
-<li>Para poner un texto en negrita se usa el símbolo <code>**</code> de manera consecutiva. Por ejemplo: <b>Texto en negrita</b></li>
-<li>Para poner un texto en cursiva se usa el símbolo <code>*</code> de manera consecutiva. Por ejemplo: <em>Texto en cursiva</em></li>
-<li>Para poner un texto en cursiva y negrita se usa el símbolo <code>***</code> de manera consecutiva. Por ejemplo: <em><b>Texto en cursiva y negrita</b></em></li>
+<li>Para poner un texto en negrita se usa el símbolo `**` de manera consecutiva. Por ejemplo: **Texto en negrita**</li>
+<li>Para poner un texto en cursiva se usa el símbolo `*` de manera consecutiva. Por ejemplo: *Texto en cursiva*</li>
+<li>Para poner un texto en cursiva y negrita se usa el símbolo `***` de manera consecutiva. Por ejemplo: ***Texto en cursiva y negrita***</li>
 </ul>
-<p>Para añadir subsecciones se usa el símbolo <code>#</code> de manera consecutiva. Por ejemplo:</p>
-<h2><a class="anchor" id="autotoc_md3"></a>
+<p>Para añadir subsecciones se usa el símbolo `#` de manera consecutiva. Por ejemplo:</p>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Subsección 1</h2>
 <p>Breve descripción de la subsección 1.</p>
-<p>Para añadir una lista de elementos se usa el símbolo <code>-</code> de manera consecutiva. Por ejemplo:</p>
+<p>Para añadir una lista de elementos se usa el símbolo `-` de manera consecutiva. Por ejemplo:</p>
 <ul>
 <li>Elemento 1</li>
 <li>Elemento 2</li>
 <li>Elemento 3</li>
 </ul>
-<p>Para añadir una lista de elementos numerados se usa el símbolo <code>1.</code> de manera consecutiva. Por ejemplo:</p>
+<p>Para añadir una lista de elementos numerados se usa el símbolo `1.` de manera consecutiva. Por ejemplo:</p>
 <ol type="1">
 <li>Elemento 1</li>
 <li>Elemento 2</li>
@@ -135,7 +183,7 @@ Subsección 1</h2>
 </ol>
 <p>Para añadir un enlace a una página web se usa el siguiente código:</p>
 <div class="fragment"><div class="line">Enlace a [Google](https://www.google.com).</div>
-</div><!-- fragment --><p>NOTA: <b>NO</b> añada el código <code>markdown</code> sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir un enlace a una página web al fichero <code>README.md</code>.</p>
+</div><!-- fragment --><p>NOTA: **NO** añada el código ```markdown``` sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir un enlace a una página web al fichero `README.md`.</p>
 <p>Puede añadir tablas de la siguiente manera:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -147,19 +195,7 @@ Subsección 1</h2>
 </table>
 <p>Para añadir un enlace a un fichero <code>.c</code> o <code>.h</code> puede usar el siguiente código. Se trata de enlaces a ficheros <code>.html</code> que se generan automáticamente con la documentación del código al ejecutar Doxygen y que se encuentran en la carpeta <code>docs/html/</code>.</p>
 <div class="fragment"><div class="line">Enlace a la [FSM de Version 1](fsm__button_8c.html).</div>
-</div><!-- fragment --><p>NOTA: <b>NO</b> añada el código <code>markdown</code> sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir un enlace a un fichero <code>.c</code> o <code>.h</code> al fichero <code>README.md</code>.</p>
-<h1><a class="anchor" id="autotoc_md4"></a>
-Version 2</h1>
-<p>Breve descripción de la versión 2.</p>
-<h1><a class="anchor" id="autotoc_md5"></a>
-Version 3</h1>
-<p>Breve descripción de la versión 3.</p>
-<h1><a class="anchor" id="autotoc_md6"></a>
-Version 4</h1>
-<p>Breve descripción de la versión 4.</p>
-<h1><a class="anchor" id="autotoc_md7"></a>
-Version 5</h1>
-<p>Breve descripción de la versión 5. </p>
+</div><!-- fragment --><p>NOTA: <b>NO</b> añada el código <code>markdown</code> sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir un enlace a un fichero <code>.c</code> o <code>.h</code> al fichero <code>README.md</code>. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

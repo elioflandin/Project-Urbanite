@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['idle_0',['idle',['../structfsm__display__t.html#aa3b2d75db29313e2c6d21c61ed8320d4',1,'fsm_display_t']]],
-  ['info_5fmax_5fcm_1',['INFO_MAX_CM',['../fsm__display_8h.html#ab7faf9dc8445127c9d2e7de3351a1b10',1,'fsm_display.h']]],
-  ['info_5fmin_5fcm_2',['INFO_MIN_CM',['../fsm__display_8h.html#ac1a2d1aeca032dd545ce899160347caa',1,'fsm_display.h']]],
-  ['interr_2ec_3',['interr.c',['../interr_8c.html',1,'']]],
-  ['is_5fpaused_4',['is_paused',['../structfsm__urbanite__t.html#a99794bf9667eecffa32f28c4e4e6dbc1',1,'fsm_urbanite_t']]]
+  ['off_0',['OFF',['../fsm__urbanite_8h.html#ab3c277bf810895db38a66dc3fc7e718eaac132f2982b98bcaa3445e535a03ff75',1,'fsm_urbanite.h']]],
+  ['ok_5fmax_5fcm_1',['OK_MAX_CM',['../fsm__display_8h.html#aac048eea353cca270d43a10773c23340',1,'fsm_display.h']]],
+  ['ok_5fmin_5fcm_2',['OK_MIN_CM',['../fsm__display_8h.html#a1fc8120088d2eb014434c104803470a2',1,'fsm_display.h']]],
+  ['on_5foff_5fpress_5ftime_5fms_3',['on_off_press_time_ms',['../structfsm__urbanite__t.html#a34aaf1f8c33629dd06e928b8e605476e',1,'fsm_urbanite_t']]]
 ];
