@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['low_20power_20mode_20support_0',['Low Power Mode Support',['../index.html#autotoc_md8',1,'']]]
+  ['g_0',['g',['../structrgb__color__t.html#ae73935f5f2386b4c62fd24a8ec6d5512',1,'rgb_color_t']]],
+  ['get_5fpin_5firqn_1',['GET_PIN_IRQN',['../stm32f4__system_8h.html#a608fbf41a9ceb289d0a8052a7c715a57',1,'stm32f4_system.h']]],
+  ['green_20_3a_2',['Between 150 and 50 cm, the LED lights up green :',['../index.html#autotoc_md12',1,'']]]
 ];

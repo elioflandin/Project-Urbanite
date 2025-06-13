@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['ahbpresctable_0',['AHBPrescTable',['../stm32f4__system_8c.html#a6e1d9cd666f0eacbfde31e9932a93466',1,'stm32f4_system.c']]],
-  ['aid_20system_1',['Urbanite parking aid system',['../index.html',1,'']]],
-  ['and_20testing_2',['Integration and Testing',['../index.html#autotoc_md9',1,'']]],
-  ['apbpresctable_3',['APBPrescTable',['../stm32f4__system_8c.html#a5b4f8b768465842cf854a8f993b375e9',1,'stm32f4_system.c']]],
-  ['architecture_4',['Architecture',['../index.html#autotoc_md3',1,'']]],
-  ['author_5',['Author',['../index.html#autotoc_md1',1,'']]]
+  ['50_20and_2025_20cm_20the_20led_20lights_20up_20yellow_20_3a_0',['Between 50 and 25 cm, the LED lights up yellow :',['../index.html#autotoc_md13',1,'']]],
+  ['50_20cm_20the_20led_20lights_20up_20green_20_3a_1',['Between 150 and 50 cm, the LED lights up green :',['../index.html#autotoc_md12',1,'']]]
 ];

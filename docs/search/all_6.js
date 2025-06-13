@@ -1,10 +1,20 @@
 var searchData=
 [
-  ['echo_5falt_5ffun_0',['echo_alt_fun',['../structstm32f4__ultrasound__hw__t.html#add613c9cad6de6aa387ca3dacc95db69',1,'stm32f4_ultrasound_hw_t']]],
-  ['echo_5fend_5ftick_1',['echo_end_tick',['../structstm32f4__ultrasound__hw__t.html#a6ad5979f671d27819af786ceb21ba195',1,'stm32f4_ultrasound_hw_t']]],
-  ['echo_5finit_5ftick_2',['echo_init_tick',['../structstm32f4__ultrasound__hw__t.html#a42c27248d56860f13c8649c6aa6498c1',1,'stm32f4_ultrasound_hw_t']]],
-  ['echo_5foverflows_3',['echo_overflows',['../structstm32f4__ultrasound__hw__t.html#accc2bafdf8318478da13f6cd0d4ec6db',1,'stm32f4_ultrasound_hw_t']]],
-  ['echo_5fpin_4',['echo_pin',['../structstm32f4__ultrasound__hw__t.html#a18192d87d0e1de5d64d0a8545dafaab1',1,'stm32f4_ultrasound_hw_t']]],
-  ['echo_5freceived_5',['echo_received',['../structstm32f4__ultrasound__hw__t.html#a1af5a18d768bf5c907d2929e4a597d45',1,'stm32f4_ultrasound_hw_t']]],
-  ['exti15_5f10_5firqhandler_6',['EXTI15_10_IRQHandler',['../interr_8c.html#a738473a5b43f6c92b80ce1d3d6f77ed9',1,'interr.c']]]
+  ['b_0',['b',['../structrgb__color__t.html#a6e7156f19f70236f20113f612b7ea1d2',1,'rgb_color_t']]],
+  ['base_5fmask_5fto_5fpos_1',['BASE_MASK_TO_POS',['../stm32f4__system_8h.html#ab10023bfece24287e8d301c535c5eaca',1,'stm32f4_system.h']]],
+  ['be_20deleted_2',['To be deleted',['../index.html#autotoc_md17',1,'']]],
+  ['between_20150_20and_2050_20cm_20the_20led_20lights_20up_20green_20_3a_3',['Between 150 and 50 cm, the LED lights up green :',['../index.html#autotoc_md12',1,'']]],
+  ['between_20175_20and_20150_20cm_20the_20led_20lights_20up_20turquoise_20blue_20_3a_4',['Between 175 and 150 cm, the LED lights up turquoise blue :',['../index.html#autotoc_md11',1,'']]],
+  ['between_20200_20and_20175_20cm_20led_20lights_20up_20blue_3a_5',['Final photo of the parking aid system between 200 and 175 cm. LED lights up blue:',['../index.html#autotoc_md10',1,'']]],
+  ['between_2050_20and_2025_20cm_20the_20led_20lights_20up_20yellow_20_3a_6',['Between 50 and 25 cm, the LED lights up yellow :',['../index.html#autotoc_md13',1,'']]],
+  ['bit_5fpos_5fto_5fmask_7',['BIT_POS_TO_MASK',['../stm32f4__system_8h.html#ad8e7767483a0c8f878cab29ad46ec656',1,'stm32f4_system.h']]],
+  ['blue_20_3a_8',['Between 175 and 150 cm, the LED lights up turquoise blue :',['../index.html#autotoc_md11',1,'']]],
+  ['blue_3a_9',['Final photo of the parking aid system between 200 and 175 cm. LED lights up blue:',['../index.html#autotoc_md10',1,'']]],
+  ['button_20fsm_10',['Button FSM',['../index.html#autotoc_md4',1,'']]],
+  ['button_5fid_11',['button_id',['../structfsm__button__t.html#a118e470443c45dd1602201b89b8d4a2a',1,'fsm_button_t']]],
+  ['button_5fpressed_12',['BUTTON_PRESSED',['../fsm__button_8h.html#acd7caaebd935f2c31359e79110f682b6abd19dea9e19d02d7d39464dfdde1e48b',1,'fsm_button.h']]],
+  ['button_5fpressed_5fwait_13',['BUTTON_PRESSED_WAIT',['../fsm__button_8h.html#acd7caaebd935f2c31359e79110f682b6a4145383ff5556588d3da0b1ae267f1c7',1,'fsm_button.h']]],
+  ['button_5freleased_14',['BUTTON_RELEASED',['../fsm__button_8h.html#acd7caaebd935f2c31359e79110f682b6a666f5349284be6384467ac357ec7d461',1,'fsm_button.h']]],
+  ['button_5freleased_5fwait_15',['BUTTON_RELEASED_WAIT',['../fsm__button_8h.html#acd7caaebd935f2c31359e79110f682b6a9a80c0309c6a131641f74f0dea282ddf',1,'fsm_button.h']]],
+  ['buttons_5farr_16',['buttons_arr',['../stm32f4__button_8c.html#a8ba28194477d2757430d0039b9580905',1,'stm32f4_button.c']]]
 ];

@@ -1,8 +1,26 @@
 var searchData=
 [
-  ['wait_5fecho_5fend_0',['WAIT_ECHO_END',['../fsm__ultrasound_8h.html#a3c16f934dafa89c8f3edd6f4c098753aa395cf8599725b9dc290150f5b39f2ab0',1,'fsm_ultrasound.h']]],
-  ['wait_5fecho_5fstart_1',['WAIT_ECHO_START',['../fsm__ultrasound_8h.html#a3c16f934dafa89c8f3edd6f4c098753aa8bf50b0b5cf3d8ac3bbc17977d3d0e42',1,'fsm_ultrasound.h']]],
-  ['wait_5fstart_2',['WAIT_START',['../fsm__ultrasound_8h.html#a3c16f934dafa89c8f3edd6f4c098753aad672f41b357cfe8db0e7b262a428fd66',1,'fsm_ultrasound.h']]],
-  ['warning_5fmax_5fcm_3',['WARNING_MAX_CM',['../fsm__display_8h.html#af83e1e76769ea1dae6a9ab2a33fe8dd3',1,'fsm_display.h']]],
-  ['warning_5fmin_5fcm_4',['WARNING_MIN_CM',['../fsm__display_8h.html#a518c5af52bbb0b3a64b130b30affd88a',1,'fsm_display.h']]]
+  ['testing_0',['Integration and Testing',['../index.html#autotoc_md9',1,'']]],
+  ['than_2025_20cm_20away_20_3a_1',['Final photo of the system in pause mode, nothing lights up, unless the detector is less than 25 cm away :',['../index.html#autotoc_md15',1,'']]],
+  ['than_2025_20cm_20the_20led_20lights_20up_20red_20_3a_2',['At less than 25 cm, the LED lights up red :',['../index.html#autotoc_md14',1,'']]],
+  ['the_20led_20lights_20up_20green_20_3a_3',['Between 150 and 50 cm, the LED lights up green :',['../index.html#autotoc_md12',1,'']]],
+  ['the_20led_20lights_20up_20red_20_3a_4',['At less than 25 cm, the LED lights up red :',['../index.html#autotoc_md14',1,'']]],
+  ['the_20led_20lights_20up_20turquoise_20blue_20_3a_5',['Between 175 and 150 cm, the LED lights up turquoise blue :',['../index.html#autotoc_md11',1,'']]],
+  ['the_20led_20lights_20up_20yellow_20_3a_6',['Between 50 and 25 cm, the LED lights up yellow :',['../index.html#autotoc_md13',1,'']]],
+  ['the_20parking_20aid_20system_20between_20200_20and_20175_20cm_20led_20lights_20up_20blue_3a_7',['Final photo of the parking aid system between 200 and 175 cm. LED lights up blue:',['../index.html#autotoc_md10',1,'']]],
+  ['the_20sensor_20is_20too_20close_20to_20the_20obstacle_20even_20in_20pause_20mode_20_3a_8',['If the sensor is too close to the obstacle, even in pause mode :',['../index.html#autotoc_md16',1,'']]],
+  ['the_20system_20in_20pause_20mode_20nothing_20lights_20up_20unless_20the_20detector_20is_20less_20than_2025_20cm_20away_20_3a_9',['Final photo of the system in pause mode, nothing lights up, unless the detector is less than 25 cm away :',['../index.html#autotoc_md15',1,'']]],
+  ['tick_5ffreq_5f1khz_10',['TICK_FREQ_1KHZ',['../stm32f4__system_8c.html#aafb4caba8017f1b553bd78f60ecd11c4',1,'stm32f4_system.c']]],
+  ['tick_5fpressed_11',['tick_pressed',['../structfsm__button__t.html#aafa5c3aa3c9af09aa7d0c8e32db6102f',1,'fsm_button_t']]],
+  ['tim2_5firqhandler_12',['TIM2_IRQHandler',['../interr_8c.html#a38ad4725462bdc5e86c4ead4f04b9fc2',1,'interr.c']]],
+  ['tim3_5firqhandler_13',['TIM3_IRQHandler',['../interr_8c.html#ac8e51d2183b5230cbd5481f8867adce9',1,'interr.c']]],
+  ['tim5_5firqhandler_14',['TIM5_IRQHandler',['../interr_8c.html#a5e66446caf21dd90191dc07a13ce2378',1,'interr.c']]],
+  ['to_20be_20deleted_15',['To be deleted',['../index.html#autotoc_md17',1,'']]],
+  ['to_20the_20obstacle_20even_20in_20pause_20mode_20_3a_16',['If the sensor is too close to the obstacle, even in pause mode :',['../index.html#autotoc_md16',1,'']]],
+  ['too_20close_20to_20the_20obstacle_20even_20in_20pause_20mode_20_3a_17',['If the sensor is too close to the obstacle, even in pause mode :',['../index.html#autotoc_md16',1,'']]],
+  ['trigger_5fend_18',['trigger_end',['../structstm32f4__ultrasound__hw__t.html#ae98818d818d5d1e28d862deb14fe03b6',1,'stm32f4_ultrasound_hw_t']]],
+  ['trigger_5fpin_19',['trigger_pin',['../structstm32f4__ultrasound__hw__t.html#a1bcc4da37cac5daa76c13e744656036e',1,'stm32f4_ultrasound_hw_t']]],
+  ['trigger_5fready_20',['trigger_ready',['../structstm32f4__ultrasound__hw__t.html#a7111712c6f1e14e605c3fa6fd26eb6c1',1,'stm32f4_ultrasound_hw_t']]],
+  ['trigger_5fstart_21',['TRIGGER_START',['../fsm__ultrasound_8h.html#a3c16f934dafa89c8f3edd6f4c098753aa1116e5229f559413cce1c65114f3d39d',1,'fsm_ultrasound.h']]],
+  ['turquoise_20blue_20_3a_22',['Between 175 and 150 cm, the LED lights up turquoise blue :',['../index.html#autotoc_md11',1,'']]]
 ];

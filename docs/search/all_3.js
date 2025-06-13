@@ -1,14 +1,4 @@
 var searchData=
 [
-  ['b_0',['b',['../structrgb__color__t.html#a6e7156f19f70236f20113f612b7ea1d2',1,'rgb_color_t']]],
-  ['base_5fmask_5fto_5fpos_1',['BASE_MASK_TO_POS',['../stm32f4__system_8h.html#ab10023bfece24287e8d301c535c5eaca',1,'stm32f4_system.h']]],
-  ['be_20deleted_2',['To be deleted',['../index.html#autotoc_md10',1,'']]],
-  ['bit_5fpos_5fto_5fmask_3',['BIT_POS_TO_MASK',['../stm32f4__system_8h.html#ad8e7767483a0c8f878cab29ad46ec656',1,'stm32f4_system.h']]],
-  ['button_20fsm_4',['Button FSM',['../index.html#autotoc_md4',1,'']]],
-  ['button_5fid_5',['button_id',['../structfsm__button__t.html#a118e470443c45dd1602201b89b8d4a2a',1,'fsm_button_t']]],
-  ['button_5fpressed_6',['BUTTON_PRESSED',['../fsm__button_8h.html#acd7caaebd935f2c31359e79110f682b6abd19dea9e19d02d7d39464dfdde1e48b',1,'fsm_button.h']]],
-  ['button_5fpressed_5fwait_7',['BUTTON_PRESSED_WAIT',['../fsm__button_8h.html#acd7caaebd935f2c31359e79110f682b6a4145383ff5556588d3da0b1ae267f1c7',1,'fsm_button.h']]],
-  ['button_5freleased_8',['BUTTON_RELEASED',['../fsm__button_8h.html#acd7caaebd935f2c31359e79110f682b6a666f5349284be6384467ac357ec7d461',1,'fsm_button.h']]],
-  ['button_5freleased_5fwait_9',['BUTTON_RELEASED_WAIT',['../fsm__button_8h.html#acd7caaebd935f2c31359e79110f682b6a9a80c0309c6a131641f74f0dea282ddf',1,'fsm_button.h']]],
-  ['buttons_5farr_10',['buttons_arr',['../stm32f4__button_8c.html#a8ba28194477d2757430d0039b9580905',1,'stm32f4_button.c']]]
+  ['_3a_0',[':',['../index.html#autotoc_md14',1,'At less than 25 cm, the LED lights up red :'],['../index.html#autotoc_md12',1,'Between 150 and 50 cm, the LED lights up green :'],['../index.html#autotoc_md11',1,'Between 175 and 150 cm, the LED lights up turquoise blue :'],['../index.html#autotoc_md13',1,'Between 50 and 25 cm, the LED lights up yellow :'],['../index.html#autotoc_md15',1,'Final photo of the system in pause mode, nothing lights up, unless the detector is less than 25 cm away :'],['../index.html#autotoc_md16',1,'If the sensor is too close to the obstacle, even in pause mode :']]]
 ];

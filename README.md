@@ -37,7 +37,8 @@ Produces new measurement data when available, communicated to the main FSM.
 
 Displays color-coded distances using an RGB LED: 
 
-* Blue for `safe distance` (> 200 cm), 
+* LED does not light up at more than 200 cm,
+* Blue for `safe distance` (between 200 and 175 cm), 
 * Turquoise blue for `INFO` (between 175 and 150 cm), 
 * Green for `NO PROBLEM` (between 150 and 50 cm), 
 * Yellow for `WARNING` (between 50 and 25 cm),
@@ -76,8 +77,38 @@ Extensive logging and LED display behavior were verified in paused and active st
 A local Doxygen documentation was generated in the `docs/` folder, and GitHub Pages was configured to allow online access to the full API documentation.
 
 
+#### Final photo of the parking aid system between 200 and 175 cm. LED lights up blue:
 
-### To be deleted
+\image html \docs\assets\imgs\BLUE.jpg
+
+#### Between 175 and 150 cm, the LED lights up turquoise blue :
+
+\image html \docs\assets\imgs\TURQUOISE_BLUE.jpg
+
+#### Between 150 and 50 cm, the LED lights up green :
+
+\image html \docs\assets\imgs\GREEN.jpg
+
+#### Between 50 and 25 cm, the LED lights up yellow :
+
+\image html \docs\assets\imgs\YELLOW.jpg
+
+#### At less than 25 cm, the LED lights up red :
+
+\image html \docs\assets\imgs\RED.jpg
+
+#### Final photo of the system in pause mode, nothing lights up, unless the detector is less than 25 cm away :
+
+\image html \docs\assets\imgs\PAUSE.jpg
+
+#### If the sensor is too close to the obstacle, even in pause mode :
+
+\image html \docs\assets\imgs\RED_PAUSE.jpg
+
+
+
+
+## To be deleted
 
 Ponga una breve descripción del proyecto **aquí** en castellano e inglés.
 

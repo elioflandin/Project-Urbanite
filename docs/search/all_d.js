@@ -1,10 +1,14 @@
 var searchData=
 [
-  ['new_5fcolor_0',['new_color',['../structfsm__display__t.html#aede5fe418a6dbfc80cca7667bd7522a5',1,'fsm_display_t']]],
-  ['new_5fmeasurement_1',['new_measurement',['../structfsm__ultrasound__t.html#a378bcf4fb95edbcba6dcd89fe7b24140',1,'fsm_ultrasound_t']]],
-  ['next_5ftimeout_2',['next_timeout',['../structfsm__button__t.html#a2cb938cc094cc3668b120954f69dcaab',1,'fsm_button_t']]],
-  ['no_5fproblem_5fmax_5fcm_3',['NO_PROBLEM_MAX_CM',['../fsm__display_8h.html#afa88da759a53acc79ae42aeb8992848b',1,'fsm_display.h']]],
-  ['no_5fproblem_5fmin_5fcm_4',['NO_PROBLEM_MIN_CM',['../fsm__display_8h.html#ae43f24d6a8534a409cff0ba2797c3c24',1,'fsm_display.h']]],
-  ['nvic_5fpriority_5fgroup_5f0_5',['NVIC_PRIORITY_GROUP_0',['../stm32f4__system_8c.html#a63af9a501c857ba12e0e977df6e38fb6',1,'stm32f4_system.c']]],
-  ['nvic_5fpriority_5fgroup_5f4_6',['NVIC_PRIORITY_GROUP_4',['../stm32f4__system_8c.html#a5b7ebf3d3bc5d33a6cd8b3fb3903cf4f',1,'stm32f4_system.c']]]
+  ['idle_0',['idle',['../structfsm__display__t.html#aa3b2d75db29313e2c6d21c61ed8320d4',1,'fsm_display_t']]],
+  ['if_20the_20sensor_20is_20too_20close_20to_20the_20obstacle_20even_20in_20pause_20mode_20_3a_1',['If the sensor is too close to the obstacle, even in pause mode :',['../index.html#autotoc_md16',1,'']]],
+  ['in_20pause_20mode_20_3a_2',['If the sensor is too close to the obstacle, even in pause mode :',['../index.html#autotoc_md16',1,'']]],
+  ['in_20pause_20mode_20nothing_20lights_20up_20unless_20the_20detector_20is_20less_20than_2025_20cm_20away_20_3a_3',['Final photo of the system in pause mode, nothing lights up, unless the detector is less than 25 cm away :',['../index.html#autotoc_md15',1,'']]],
+  ['info_5fmax_5fcm_4',['INFO_MAX_CM',['../fsm__display_8h.html#ab7faf9dc8445127c9d2e7de3351a1b10',1,'fsm_display.h']]],
+  ['info_5fmin_5fcm_5',['INFO_MIN_CM',['../fsm__display_8h.html#ac1a2d1aeca032dd545ce899160347caa',1,'fsm_display.h']]],
+  ['integration_20and_20testing_6',['Integration and Testing',['../index.html#autotoc_md9',1,'']]],
+  ['interr_2ec_7',['interr.c',['../interr_8c.html',1,'']]],
+  ['is_20less_20than_2025_20cm_20away_20_3a_8',['Final photo of the system in pause mode, nothing lights up, unless the detector is less than 25 cm away :',['../index.html#autotoc_md15',1,'']]],
+  ['is_20too_20close_20to_20the_20obstacle_20even_20in_20pause_20mode_20_3a_9',['If the sensor is too close to the obstacle, even in pause mode :',['../index.html#autotoc_md16',1,'']]],
+  ['is_5fpaused_10',['is_paused',['../structfsm__urbanite__t.html#a99794bf9667eecffa32f28c4e4e6dbc1',1,'fsm_urbanite_t']]]
 ];

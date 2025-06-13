@@ -121,7 +121,8 @@ Ultrasound FSM</h2>
 Display FSM</h2>
 <p>Displays color-coded distances using an RGB LED:</p>
 <ul>
-<li>Blue for <code>safe distance</code> (&gt; 200 cm),</li>
+<li>LED does not light up at more than 200 cm,</li>
+<li>Blue for <code>safe distance</code> (between 200 and 175 cm),</li>
 <li>Turquoise blue for <code>INFO</code> (between 175 and 150 cm),</li>
 <li>Green for <code>NO PROBLEM</code> (between 150 and 50 cm),</li>
 <li>Yellow for <code>WARNING</code> (between 50 and 25 cm),</li>
@@ -146,8 +147,43 @@ Integration and Testing</h2>
 <p>Proper hardware abstraction was maintained using port_* functions.</p>
 <p>Extensive logging and LED display behavior were verified in paused and active states.</p>
 <p>A local Doxygen documentation was generated in the `docs/` folder, and GitHub Pages was configured to allow online access to the full API documentation.</p>
-<h2><a class="anchor" id="autotoc_md10"></a>
-To be deleted</h2>
+<h3><a class="anchor" id="autotoc_md10"></a>
+Final photo of the parking aid system between 200 and 175 cm. LED lights up blue:</h3>
+<div class="image">
+<img src="BLUE.jpg" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md11"></a>
+Between 175 and 150 cm, the LED lights up turquoise blue :</h3>
+<div class="image">
+<img src="TURQUOISE_BLUE.jpg" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md12"></a>
+Between 150 and 50 cm, the LED lights up green :</h3>
+<div class="image">
+<img src="GREEN.jpg" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md13"></a>
+Between 50 and 25 cm, the LED lights up yellow :</h3>
+<div class="image">
+<img src="YELLOW.jpg" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md14"></a>
+At less than 25 cm, the LED lights up red :</h3>
+<div class="image">
+<img src="RED.jpg" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md15"></a>
+Final photo of the system in pause mode, nothing lights up, unless the detector is less than 25 cm away :</h3>
+<div class="image">
+<img src="PAUSE.jpg" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md16"></a>
+If the sensor is too close to the obstacle, even in pause mode :</h3>
+<div class="image">
+<img src="RED_PAUSE.jpg" alt=""/>
+</div>
+<h1><a class="anchor" id="autotoc_md17"></a>
+To be deleted</h1>
 <p>Ponga una breve descripción del proyecto **aquí** en castellano e inglés.</p>
 <p>Puede añadir una imagen de portada **de su propiedad** aquí. Por ejemplo, del montaje final, o una captura de osciloscopio, etc.</p>
 <p>**Las imágenes se deben guardar en la carpeta `docs/assets/imgs/` y se pueden incluir en el documento de la siguiente manera:**</p>
@@ -157,7 +193,7 @@ To be deleted</h2>
 <p>Para añadir un enlace a un vídeo de Youtube, puede usar el siguiente código:</p>
 <div class="fragment"><div class="line">[![Texto alternativo](docs/assets/imgs/imagen.png)](https://youtu.be/ID_DEL_VIDEO &quot;Texto al pasar el ratón por encima de la imagen.&quot;)</div>
 </div><!-- fragment --><p>NOTA: **NO** añada el código ```markdown``` sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir un enlace a un vídeo de Youtube al fichero `README.md`.</p>
-<h1><a class="anchor" id="autotoc_md11"></a>
+<h1><a class="anchor" id="autotoc_md18"></a>
 Version 1</h1>
 <p>Breve descripción de la versión 1.</p>
 <ul>
@@ -166,7 +202,7 @@ Version 1</h1>
 <li>Para poner un texto en cursiva y negrita se usa el símbolo `***` de manera consecutiva. Por ejemplo: ***Texto en cursiva y negrita***</li>
 </ul>
 <p>Para añadir subsecciones se usa el símbolo `#` de manera consecutiva. Por ejemplo:</p>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md19"></a>
 Subsección 1</h2>
 <p>Breve descripción de la subsección 1.</p>
 <p>Para añadir una lista de elementos se usa el símbolo `-` de manera consecutiva. Por ejemplo:</p>
