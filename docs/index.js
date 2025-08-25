@@ -17,9 +17,5 @@ var index =
         [ "Final photo of the system in pause mode, nothing lights up, unless the detector is less than 25 cm away :", "index.html#autotoc_md15", null ],
         [ "If the sensor is too close to the obstacle, even in pause mode :", "index.html#autotoc_md16", null ]
       ] ]
-    ] ],
-    [ "To be deleted", "index.html#autotoc_md17", null ],
-    [ "Version 1", "index.html#autotoc_md18", [
-      [ "Subsección 1", "index.html#autotoc_md19", null ]
     ] ]
 ];

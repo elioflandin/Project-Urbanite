@@ -137,16 +137,16 @@ Urbanite Main FSM</h2>
 <p>Uses a transition table for clarity and maintainability.</p>
 <h2><a class="anchor" id="autotoc_md8"></a>
 Low Power Mode Support</h2>
-<p>Entered through specific states in the main FSM (e.g., `SLEEP_WHILE_ON`, `SLEEP_WHILE_OFF`).</p>
-<p>Implements `__WFI()` to wait for interrupts and reduce power usage.</p>
+<p>Entered through specific states in the main FSM (e.g., <code>SLEEP_WHILE_ON</code>, <code>SLEEP_WHILE_OFF</code>).</p>
+<p>Implements <code>__WFI()</code> to wait for interrupts and reduce power usage.</p>
 <p>Easily testable via debugger or current measurement.</p>
 <h2><a class="anchor" id="autotoc_md9"></a>
 Integration and Testing</h2>
 <p>The FSM was thoroughly tested with a real circuit using a Nucleo STM32F4re board.</p>
-<p>Full integration was achieved in `main.c`, with all subsystems interacting correctly.</p>
+<p>Full integration was achieved in <code><a class="el" href="main_8c.html" title="Main file.">main.c</a></code>, with all subsystems interacting correctly.</p>
 <p>Proper hardware abstraction was maintained using port_* functions.</p>
 <p>Extensive logging and LED display behavior were verified in paused and active states.</p>
-<p>A local Doxygen documentation was generated in the `docs/` folder, and GitHub Pages was configured to allow online access to the full API documentation.</p>
+<p>A local Doxygen documentation was generated in the <code>docs/</code> folder, and GitHub Pages was configured to allow online access to the full API documentation.</p>
 <h3><a class="anchor" id="autotoc_md10"></a>
 Final photo of the parking aid system between 200 and 175 cm. LED lights up blue:</h3>
 <div class="image">
@@ -182,57 +182,7 @@ If the sensor is too close to the obstacle, even in pause mode :</h3>
 <div class="image">
 <img src="RED_PAUSE.jpg" alt=""/>
 </div>
-<h1><a class="anchor" id="autotoc_md17"></a>
-To be deleted</h1>
-<p>Ponga una breve descripción del proyecto **aquí** en castellano e inglés.</p>
-<p>Puede añadir una imagen de portada **de su propiedad** aquí. Por ejemplo, del montaje final, o una captura de osciloscopio, etc.</p>
-<p>**Las imágenes se deben guardar en la carpeta `docs/assets/imgs/` y se pueden incluir en el documento de la siguiente manera:**</p>
-<div class="fragment"><div class="line">![Texto alternativo](docs/assets/imgs/imagen.png)</div>
-</div><!-- fragment --><p>NOTA: **NO** añada el código ```markdown``` en el fichero `README.md` de su proyecto, sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir una imagen al fichero `README.md`.</p>
-<p>**Añada un enlace a un vídeo público de su propiedad aquí con la demostración del proyecto explicando lo que haya hecho en la versión V5.**</p>
-<p>Para añadir un enlace a un vídeo de Youtube, puede usar el siguiente código:</p>
-<div class="fragment"><div class="line">[![Texto alternativo](docs/assets/imgs/imagen.png)](https://youtu.be/ID_DEL_VIDEO &quot;Texto al pasar el ratón por encima de la imagen.&quot;)</div>
-</div><!-- fragment --><p>NOTA: **NO** añada el código ```markdown``` sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir un enlace a un vídeo de Youtube al fichero `README.md`.</p>
-<h1><a class="anchor" id="autotoc_md18"></a>
-Version 1</h1>
-<p>Breve descripción de la versión 1.</p>
-<ul>
-<li>Para poner un texto en negrita se usa el símbolo `**` de manera consecutiva. Por ejemplo: **Texto en negrita**</li>
-<li>Para poner un texto en cursiva se usa el símbolo `*` de manera consecutiva. Por ejemplo: *Texto en cursiva*</li>
-<li>Para poner un texto en cursiva y negrita se usa el símbolo `***` de manera consecutiva. Por ejemplo: ***Texto en cursiva y negrita***</li>
-</ul>
-<p>Para añadir subsecciones se usa el símbolo `#` de manera consecutiva. Por ejemplo:</p>
-<h2><a class="anchor" id="autotoc_md19"></a>
-Subsección 1</h2>
-<p>Breve descripción de la subsección 1.</p>
-<p>Para añadir una lista de elementos se usa el símbolo `-` de manera consecutiva. Por ejemplo:</p>
-<ul>
-<li>Elemento 1</li>
-<li>Elemento 2</li>
-<li>Elemento 3</li>
-</ul>
-<p>Para añadir una lista de elementos numerados se usa el símbolo `1.` de manera consecutiva. Por ejemplo:</p>
-<ol type="1">
-<li>Elemento 1</li>
-<li>Elemento 2</li>
-<li>Elemento 3</li>
-</ol>
-<p>Para añadir un enlace a una página web se usa el siguiente código:</p>
-<div class="fragment"><div class="line">Enlace a [Google](https://www.google.com).</div>
-</div><!-- fragment --><p>NOTA: **NO** añada el código ```markdown``` sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir un enlace a una página web al fichero `README.md`.</p>
-<p>Puede añadir tablas de la siguiente manera:</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Columna 1   </th><th class="markdownTableHeadNone">Columna 2   </th><th class="markdownTableHeadNone">Columna 3    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Valor 1   </td><td class="markdownTableBodyNone">Valor 2   </td><td class="markdownTableBodyNone">Valor 3    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Valor 4   </td><td class="markdownTableBodyNone">Valor 5   </td><td class="markdownTableBodyNone">Valor 6   </td></tr>
-</table>
-<p>Para añadir un enlace a un fichero <code>.c</code> o <code>.h</code> puede usar el siguiente código. Se trata de enlaces a ficheros <code>.html</code> que se generan automáticamente con la documentación del código al ejecutar Doxygen y que se encuentran en la carpeta <code>docs/html/</code>.</p>
-<div class="fragment"><div class="line">Enlace a la [FSM de Version 1](fsm__button_8c.html).</div>
-</div><!-- fragment --><p>NOTA: <b>NO</b> añada el código <code>markdown</code> sino lo de dentro. Este código es un para mostrar de forma literal cómo se puede añadir un enlace a un fichero <code>.c</code> o <code>.h</code> al fichero <code>README.md</code>. </p>
-</div></div><!-- PageDoc -->
+ </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
